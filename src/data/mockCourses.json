@@ -1,0 +1,328 @@
+[
+  {
+    "id": "STSWENG",
+    "code": "STSWENG",
+    "title": "Advanced Software Engineering",
+    "units": 3,
+    "sections": [
+      {
+        "id": "STSWENG-S01",
+        "section": "S01",
+        "instructor": "Dr. Maria Dela Cruz",
+        "capacity": 45,
+        "enrolled": 42,
+        "schedule": [
+          { "day": "Monday", "startTime": "07:30", "endTime": "09:00", "room": "G203" },
+          { "day": "Thursday", "startTime": "07:30", "endTime": "09:00", "room": "G203" }
+        ]
+      },
+      {
+        "id": "STSWENG-S02",
+        "section": "S02",
+        "instructor": "Engr. Paolo Reyes",
+        "capacity": 45,
+        "enrolled": 45,
+        "schedule": [
+          { "day": "Tuesday", "startTime": "12:45", "endTime": "14:15", "room": "Online" },
+          { "day": "Friday", "startTime": "12:45", "endTime": "14:15", "room": "M402" }
+        ]
+      },
+      {
+        "id": "STSWENG-S03",
+        "section": "S03",
+        "instructor": "Dr. Katrina Santos",
+        "capacity": 45,
+        "enrolled": 32,
+        "schedule": [
+          { "day": "Wednesday", "startTime": "09:15", "endTime": "10:45", "room": "G204" },
+          { "day": "Saturday", "startTime": "09:15", "endTime": "10:45", "room": "G204" }
+        ]
+      },
+      {
+        "id": "STSWENG-S04",
+        "section": "S04",
+        "instructor": "Prof. Juan Miguel Tamayo",
+        "capacity": 60,
+        "enrolled": 58,
+        "schedule": [
+          { "day": "Wednesday", "startTime": "18:00", "endTime": "21:00", "room": "Online" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CSINTSY",
+    "code": "CSINTSY",
+    "title": "Intelligent Systems",
+    "units": 3,
+    "sections": [
+      {
+        "id": "CSINTSY-S01",
+        "section": "S01",
+        "instructor": "Dr. Rafael Aquino",
+        "capacity": 40,
+        "enrolled": 37,
+        "schedule": [
+          { "day": "Tuesday", "startTime": "09:15", "endTime": "10:45", "room": "Online" },
+          { "day": "Friday", "startTime": "09:15", "endTime": "10:45", "room": "G301" }
+        ]
+      },
+      {
+        "id": "CSINTSY-S02",
+        "section": "S02",
+        "instructor": "Prof. Lynne Chu",
+        "capacity": 40,
+        "enrolled": 40,
+        "schedule": [
+          { "day": "Monday", "startTime": "14:30", "endTime": "16:00", "room": "M303" },
+          { "day": "Thursday", "startTime": "14:30", "endTime": "16:00", "room": "M303" }
+        ]
+      },
+      {
+        "id": "CSINTSY-S03",
+        "section": "S03",
+        "instructor": "Dr. Rafael Aquino",
+        "capacity": 50,
+        "enrolled": 33,
+        "schedule": [
+          { "day": "Wednesday", "startTime": "19:45", "endTime": "21:15", "room": "Online" },
+          { "day": "Saturday", "startTime": "19:45", "endTime": "21:15", "room": "Online" }
+        ]
+      },
+      {
+        "id": "CSINTSY-S04",
+        "section": "S04",
+        "instructor": "Engr. Denis Villarin",
+        "capacity": 40,
+        "enrolled": 12,
+        "schedule": [
+          { "day": "Monday", "startTime": "16:15", "endTime": "17:45", "room": "T1406" },
+          { "day": "Thursday", "startTime": "16:15", "endTime": "17:45", "room": "T1406" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CCPROG1",
+    "code": "CCPROG1",
+    "title": "Computer Programming 1",
+    "units": 3,
+    "sections": [
+      {
+        "id": "CCPROG1-Y01",
+        "section": "Y01",
+        "instructor": "Prof. Aira Mendoza",
+        "capacity": 45,
+        "enrolled": 41,
+        "schedule": [
+          { "day": "Tuesday", "startTime": "11:00", "endTime": "12:30", "room": "Online" },
+          { "day": "Friday", "startTime": "11:00", "endTime": "12:30", "room": "N410" }
+        ]
+      },
+      {
+        "id": "CCPROG1-Y02",
+        "section": "Y02",
+        "instructor": "Prof. Justin Banal",
+        "capacity": 45,
+        "enrolled": 45,
+        "schedule": [
+          { "day": "Monday", "startTime": "11:00", "endTime": "12:30", "room": "N411" },
+          { "day": "Thursday", "startTime": "11:00", "endTime": "12:30", "room": "N411" }
+        ]
+      },
+      {
+        "id": "CCPROG1-Y03",
+        "section": "Y03",
+        "instructor": "Prof. Karl Navarro",
+        "capacity": 40,
+        "enrolled": 22,
+        "schedule": [
+          { "day": "Wednesday", "startTime": "14:30", "endTime": "16:00", "room": "N412" },
+          { "day": "Saturday", "startTime": "14:30", "endTime": "16:00", "room": "N412" }
+        ]
+      },
+      {
+        "id": "CCPROG1-Y04",
+        "section": "Y04",
+        "instructor": "Prof. Aira Mendoza",
+        "capacity": 50,
+        "enrolled": 49,
+        "schedule": [
+          { "day": "Saturday", "startTime": "11:00", "endTime": "14:00", "room": "Online" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "CSARCH1",
+    "code": "CSARCH1",
+    "title": "Computer Architecture",
+    "units": 3,
+    "sections": [
+      {
+        "id": "CSARCH1-S01",
+        "section": "S01",
+        "instructor": "Engr. Beatrice Lim",
+        "capacity": 45,
+        "enrolled": 44,
+        "schedule": [
+          { "day": "Wednesday", "startTime": "14:30", "endTime": "16:00", "room": "G301" },
+          { "day": "Saturday", "startTime": "14:30", "endTime": "16:00", "room": "G301" }
+        ]
+      },
+      {
+        "id": "CSARCH1-S02",
+        "section": "S02",
+        "instructor": "Engr. Beatrice Lim",
+        "capacity": 45,
+        "enrolled": 45,
+        "schedule": [
+          { "day": "Monday", "startTime": "14:30", "endTime": "16:00", "room": "G301" },
+          { "day": "Thursday", "startTime": "14:30", "endTime": "16:00", "room": "G301" }
+        ]
+      },
+      {
+        "id": "CSARCH1-S03",
+        "section": "S03",
+        "instructor": "Prof. Carlo Dizon",
+        "capacity": 45,
+        "enrolled": 28,
+        "schedule": [
+          { "day": "Tuesday", "startTime": "12:45", "endTime": "14:15", "room": "Online" },
+          { "day": "Friday", "startTime": "12:45", "endTime": "14:15", "room": "M404" }
+        ]
+      },
+      {
+        "id": "CSARCH1-S04",
+        "section": "S04",
+        "instructor": "Prof. Carlo Dizon",
+        "capacity": 50,
+        "enrolled": 50,
+        "schedule": [
+          { "day": "Monday", "startTime": "18:00", "endTime": "19:30", "room": "G303" },
+          { "day": "Thursday", "startTime": "18:00", "endTime": "19:30", "room": "G303" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "STT201A",
+    "code": "STT201A",
+    "title": "Statistical Methods in Research",
+    "units": 3,
+    "sections": [
+      {
+        "id": "STT201A-S01",
+        "section": "S01",
+        "instructor": "Prof. Sofia Ramirez",
+        "capacity": 35,
+        "enrolled": 30,
+        "schedule": [
+          { "day": "Wednesday", "startTime": "12:45", "endTime": "14:15", "room": "T1506" },
+          { "day": "Saturday", "startTime": "12:45", "endTime": "14:15", "room": "T1506" }
+        ]
+      },
+      {
+        "id": "STT201A-S02",
+        "section": "S02",
+        "instructor": "Prof. Sofia Ramirez",
+        "capacity": 35,
+        "enrolled": 35,
+        "schedule": [
+          { "day": "Tuesday", "startTime": "16:15", "endTime": "17:45", "room": "Online" },
+          { "day": "Friday", "startTime": "16:15", "endTime": "17:45", "room": "T1506" }
+        ]
+      },
+      {
+        "id": "STT201A-S03",
+        "section": "S03",
+        "instructor": "Dr. Emmanuel Garcia",
+        "capacity": 40,
+        "enrolled": 18,
+        "schedule": [
+          { "day": "Monday", "startTime": "09:15", "endTime": "10:45", "room": "L305" },
+          { "day": "Thursday", "startTime": "09:15", "endTime": "10:45", "room": "L305" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "GELITPH",
+    "code": "GELITPH",
+    "title": "The Philippine Literature",
+    "units": 3,
+    "sections": [
+      {
+        "id": "GELITPH-S01",
+        "section": "S01",
+        "instructor": "Dr. Bernadette Ocampo",
+        "capacity": 50,
+        "enrolled": 46,
+        "schedule": [
+          { "day": "Wednesday", "startTime": "09:15", "endTime": "10:45", "room": "L302" },
+          { "day": "Saturday", "startTime": "09:15", "endTime": "10:45", "room": "L302" }
+        ]
+      },
+      {
+        "id": "GELITPH-S02",
+        "section": "S02",
+        "instructor": "Dr. Bernadette Ocampo",
+        "capacity": 50,
+        "enrolled": 50,
+        "schedule": [
+          { "day": "Monday", "startTime": "09:15", "endTime": "10:45", "room": "L302" },
+          { "day": "Thursday", "startTime": "09:15", "endTime": "10:45", "room": "L302" }
+        ]
+      },
+      {
+        "id": "GELITPH-S03",
+        "section": "S03",
+        "instructor": "Prof. Althea Villanueva",
+        "capacity": 55,
+        "enrolled": 39,
+        "schedule": [
+          { "day": "Tuesday", "startTime": "16:15", "endTime": "17:45", "room": "Online" },
+          { "day": "Friday", "startTime": "16:15", "endTime": "17:45", "room": "L304" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "PETHREE",
+    "code": "PETHREE",
+    "title": "Physical Education 3",
+    "units": 2,
+    "sections": [
+      {
+        "id": "PETHREE-C01",
+        "section": "C01",
+        "instructor": "Coach Michael Tan",
+        "capacity": 50,
+        "enrolled": 48,
+        "schedule": [
+          { "day": "Monday", "startTime": "07:30", "endTime": "09:30", "room": "Sports Center" }
+        ]
+      },
+      {
+        "id": "PETHREE-C02",
+        "section": "C02",
+        "instructor": "Coach Isabel Cruz",
+        "capacity": 50,
+        "enrolled": 25,
+        "schedule": [
+          { "day": "Thursday", "startTime": "14:30", "endTime": "16:30", "room": "Sports Center" }
+        ]
+      },
+      {
+        "id": "PETHREE-C03",
+        "section": "C03",
+        "instructor": "Coach Michael Tan",
+        "capacity": 60,
+        "enrolled": 57,
+        "schedule": [
+          { "day": "Wednesday", "startTime": "18:00", "endTime": "20:00", "room": "Online" }
+        ]
+      }
+    ]
+  }
+]

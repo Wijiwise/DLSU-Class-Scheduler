@@ -4,7 +4,6 @@ import { ScheduleBlock } from '@/components/schedule/ScheduleBlock'
 import {
   DAYS,
   ROW_HEIGHT_PX,
-  SHORT_DAYS,
   SLOT_MINUTES,
   formatTime,
   getHourMarks,
@@ -127,13 +126,10 @@ export function Timetable({ entries, onRemove }: TimetableProps) {
               {DAYS.map((day) => {
                 const lanes = dayData.get(day)?.maxLanes ?? 1
                 return (
-                  <div
-                    key={day}
-                    className="border-l border-stone-200 px-2 py-3 text-center"
-                  >
-                    <p className="text-[10px] font-bold uppercase tracking-wider text-stone-400">
-                      {SHORT_DAYS[day]}
-                    </p>
+<div
+                      key={day}
+                      className="border-l border-stone-200 px-2 py-3 text-center"
+                    >
                     <p className="text-sm font-semibold text-stone-800">
                       {day}
                     </p>

@@ -275,8 +275,8 @@
         ]
       },
       {
-        "id": "GELITPH-S03",
-        "section": "S03",
+        "id": "GELITPH-Y01",
+        "section": "Y01",
         "instructor": "Prof. Althea Villanueva",
         "capacity": 55,
         "enrolled": 39,
@@ -294,8 +294,8 @@
     "units": 2,
     "sections": [
       {
-        "id": "PETHREE-C01",
-        "section": "C01",
+        "id": "PETHREE-Z01",
+        "section": "Z01",
         "instructor": "Coach Michael Tan",
         "capacity": 50,
         "enrolled": 48,
@@ -304,8 +304,8 @@
         ]
       },
       {
-        "id": "PETHREE-C02",
-        "section": "C02",
+        "id": "PETHREE-Z02",
+        "section": "Z02",
         "instructor": "Coach Isabel Cruz",
         "capacity": 50,
         "enrolled": 25,
@@ -314,8 +314,8 @@
         ]
       },
       {
-        "id": "PETHREE-C03",
-        "section": "C03",
+        "id": "PETHREE-Z03",
+        "section": "Z03",
         "instructor": "Coach Michael Tan",
         "capacity": 60,
         "enrolled": 57,

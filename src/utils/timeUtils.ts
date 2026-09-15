@@ -9,15 +9,6 @@ export const DAYS: DayOfWeek[] = [
   'Saturday',
 ]
 
-export const SHORT_DAYS: Record<DayOfWeek, string> = {
-  Monday: 'MON',
-  Tuesday: 'TUE',
-  Wednesday: 'WED',
-  Thursday: 'THU',
-  Friday: 'FRI',
-  Saturday: 'SAT',
-}
-
 /** Default earliest time shown on the timetable grid (07:30 AM). */
 export const DEFAULT_GRID_START = 7 * 60 + 30
 

@@ -1,75 +1,43 @@
-# React + TypeScript + Vite
+# DLSU Class Schedule Maker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A class scheduling web application built for the LSCS Take-Home Assessment.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React 19 + TypeScript
+- Vite 8
+- Tailwind CSS v4
+- Radix UI (Dialog)
+- lucide-react icons
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
+```bash
+npm install
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## Scripts
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- `npm run dev` - start the Vite dev server
+- `npm run build` - type-check and build for production
+- `npm run lint` - run ESLint
+- `npm run preview` - preview the production build
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Project Structure
 
-```
+- `src/data/mockCourses.json` - course, section, and schedule data
+- `src/types/course.ts` - domain types (Course, Section, ScheduleSlot)
+- `src/hooks/useSchedule.ts` - schedule state (added sections, total units)
+- `src/hooks/useCourseFilter.ts` - course search filtering
+- `src/components/` - UI components (layout, common, course, schedule)
+- `src/utils/` - shared helpers (time math, colors, classnames)
+
+## Data Rules
+
+- Academic courses total 3 hours per week across two meetings; PE is a single
+  two-hour meeting.
+- Courses starting with ST or CS use `S` sections, PE courses use `Z` sections,
+  and GE courses use either `S` or `Y`.
+- Room is stored per meeting slot, so a course can be face-to-face on some days
+  and Online on others.

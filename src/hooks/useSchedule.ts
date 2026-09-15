@@ -28,18 +28,6 @@ export function useSchedule() {
     })
   }, [])
 
-  const toggleSection = useCallback((sectionId: string) => {
-    setAddedSectionIds((prev) => {
-      const next = new Set(prev)
-      if (next.has(sectionId)) {
-        next.delete(sectionId)
-      } else {
-        next.add(sectionId)
-      }
-      return next
-    })
-  }, [])
-
   const isSectionAdded = useCallback(
     (sectionId: string) => addedSectionIds.has(sectionId),
     [addedSectionIds],
@@ -68,7 +56,6 @@ export function useSchedule() {
     totalUnits,
     addSection,
     removeSection,
-    toggleSection,
     isSectionAdded,
   }
 }

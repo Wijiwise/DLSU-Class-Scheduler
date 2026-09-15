@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { ChevronDown, Search, Users } from 'lucide-react'
-import type { Course, Section } from '@/types/course'
+import type { Course } from '@/types/course'
 import { Badge } from '@/components/common/Badge'
 import { Button } from '@/components/common/Button'
 import {
@@ -148,7 +148,7 @@ export function CourseSearchModal({
                               </tr>
                             </thead>
                             <tbody className="divide-y divide-stone-100 bg-white">
-                              {course.sections.map((section: Section) => {
+                              {course.sections.map((section) => {
                                 const isAdded = isSectionAdded(section.id)
                                 const isFull =
                                   section.enrolled >= section.capacity

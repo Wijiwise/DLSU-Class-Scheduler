@@ -127,18 +127,16 @@ export function Timetable({ entries, onRemove }: TimetableProps) {
                 const lanes = dayData.get(day)?.maxLanes ?? 1
                 return (
 <div
-                      key={day}
-                      className="border-l border-stone-200 px-2 py-3 text-center"
-                    >
-                    <p className="text-sm font-semibold text-stone-800">
-                      {day}
+                  key={day}
+                  className="border-l border-stone-200 px-2 py-3 text-center"
+                >
+                  <p className="text-sm font-semibold text-stone-800">{day}</p>
+                  {lanes > 1 && (
+                    <p className="mt-0.5 text-[10px] font-medium text-red-500">
+                      {lanes} conflicts
                     </p>
-                    {lanes > 1 && (
-                      <p className="mt-0.5 text-[10px] font-medium text-red-500">
-                        {lanes} conflicts
-                      </p>
-                    )}
-                  </div>
+                  )}
+                </div>
                 )
               })}
             </div>

@@ -41,3 +41,7 @@ npm run dev
   and GE courses use either `S` or `Y`.
 - Room is stored per meeting slot, so a course can be face-to-face on some days
   and Online on others.
+
+## Rationale
+The DLSU Class Schedule Maker puts the timetable at the center of the screen with a modal for the search feature to avoid covering the entire screen.
+Unlike in Archer's Hub I allow the adding of 2 sections of the same subject so users can compare directly which sections would be better for them. In order to meet the deadline I chose to keep my implementation simple. I used React + TypeScript + Vite as a framework and Tailwind CSS for styling, Radix for an accessible modal and lucide-react for icons. For the search and selection feature I used a modal to keep it concise and within the same space. To represent courses I followed the examples provided in the handout but per section I also added the capacity and enrolled attribute to track how many students are enrolled for that class. A future feature I would like to add would be a feature to save the schedule in a data base or download it as an image. 

@@ -53,7 +53,7 @@
   {
     "id": "CSINTSY",
     "code": "CSINTSY",
-    "title": "Intelligent Systems",
+    "title": "Introduction to Intelligent Systems",
     "units": 3,
     "sections": [
       {
@@ -105,7 +105,7 @@
   {
     "id": "CCPROG1",
     "code": "CCPROG1",
-    "title": "Computer Programming 1",
+    "title": "Intro to Programming",
     "units": 3,
     "sections": [
       {
@@ -156,7 +156,7 @@
   {
     "id": "CSARCH1",
     "code": "CSARCH1",
-    "title": "Computer Architecture",
+    "title": "Computer Architecture 1",
     "units": 3,
     "sections": [
       {
@@ -189,7 +189,7 @@
         "enrolled": 28,
         "schedule": [
           { "day": "Tuesday", "startTime": "12:45", "endTime": "14:15", "room": "Online" },
-          { "day": "Friday", "startTime": "12:45", "endTime": "14:15", "room": "M404" }
+          { "day": "Friday", "startTime": "12:45", "endTime": "14:15", "room": "L304" }
         ]
       },
       {
@@ -206,35 +206,35 @@
     ]
   },
   {
-    "id": "STT201A",
-    "code": "STT201A",
-    "title": "Statistical Methods in Research",
+    "id": "STT101A",
+    "code": "STT101A",
+    "title": "Foundations of Statistics",
     "units": 3,
     "sections": [
       {
-        "id": "STT201A-S01",
+        "id": "STT101A-S01",
         "section": "S01",
         "instructor": "Prof. Sofia Ramirez",
         "capacity": 35,
         "enrolled": 30,
         "schedule": [
-          { "day": "Wednesday", "startTime": "12:45", "endTime": "14:15", "room": "T1506" },
-          { "day": "Saturday", "startTime": "12:45", "endTime": "14:15", "room": "T1506" }
+          { "day": "Wednesday", "startTime": "12:45", "endTime": "14:15", "room": "A1506" },
+          { "day": "Saturday", "startTime": "12:45", "endTime": "14:15", "room": "A1506" }
         ]
       },
       {
-        "id": "STT201A-S02",
+        "id": "STT101A-S02",
         "section": "S02",
         "instructor": "Prof. Sofia Ramirez",
         "capacity": 35,
         "enrolled": 35,
         "schedule": [
           { "day": "Tuesday", "startTime": "16:15", "endTime": "17:45", "room": "Online" },
-          { "day": "Friday", "startTime": "16:15", "endTime": "17:45", "room": "T1506" }
+          { "day": "Friday", "startTime": "16:15", "endTime": "17:45", "room": "A1506" }
         ]
       },
       {
-        "id": "STT201A-S03",
+        "id": "STT101A-S03",
         "section": "S03",
         "instructor": "Dr. Emmanuel Garcia",
         "capacity": 40,
@@ -249,7 +249,7 @@
   {
     "id": "GELITPH",
     "code": "GELITPH",
-    "title": "The Philippine Literature",
+    "title": "Literatures of the Philippines",
     "units": 3,
     "sections": [
       {
@@ -271,7 +271,7 @@
         "enrolled": 50,
         "schedule": [
           { "day": "Monday", "startTime": "09:15", "endTime": "10:45", "room": "L302" },
-          { "day": "Thursday", "startTime": "09:15", "endTime": "10:45", "room": "L302" }
+          { "day": "Thursday", "startTime": "11:00", "endTime": "12:30", "room": "L302" }
         ]
       },
       {
@@ -290,7 +290,7 @@
   {
     "id": "PETHREE",
     "code": "PETHREE",
-    "title": "Physical Education 3",
+    "title": "Individual/Dual Sports and Social Dances",
     "units": 2,
     "sections": [
       {
@@ -300,7 +300,7 @@
         "capacity": 50,
         "enrolled": 48,
         "schedule": [
-          { "day": "Monday", "startTime": "07:30", "endTime": "09:30", "room": "Sports Center" }
+          { "day": "Monday", "startTime": "08:00", "endTime": "10:00", "room": "Sports Center" }
         ]
       },
       {
